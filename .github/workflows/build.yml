@@ -26,7 +26,7 @@ jobs:
        uses: actions/checkout@v4
 
      - name: Setup pages
-       uses: actions/configuer-pages@v5
+       uses: actions/configure-pages@v5
 
      - name: Upodate files
        uses: actions/upload-pages-artifact@v3
